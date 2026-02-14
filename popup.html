@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SharePoint URL Decoder</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>SharePoint URL Decoder</h1>
+      <label for="inputUrl">デコード前</label>
+      <textarea id="inputUrl" placeholder="https://*.sharepoint.com/:w:/s/sites/..." rows="5"></textarea>
+
+      <button id="decodeBtn" type="button">デコード実行</button>
+
+      <label for="outputUrl">デコード後</label>
+      <textarea id="outputUrl" rows="5" readonly></textarea>
+
+      <a id="appLink" class="app-link" href="" hidden>アプリで開く</a>
+
+      <p id="status" role="status" aria-live="polite"></p>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
