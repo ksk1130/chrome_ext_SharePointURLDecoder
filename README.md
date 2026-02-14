@@ -54,6 +54,10 @@ https://example.sharepoint.com/sites/test/Shared Documents/フォルダ１/フ�
 
 - `*.sharepoint.com` - Microsoft SharePointのみ対応
 
+## 権限
+
+- `clipboardWrite` - デコード結果をクリップボードにコピーするために使用
+
 ## ライセンス
 
 自由に利用・改変できます。

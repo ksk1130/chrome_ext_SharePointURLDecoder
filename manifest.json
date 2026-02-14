@@ -13,6 +13,5 @@
     "default_title": "SharePoint URL Decoder",
     "default_popup": "popup.html"
   },
-  "permissions": ["clipboardWrite"],
-  "host_permissions": ["https://*.sharepoint.com/*"]
+  "permissions": ["clipboardWrite"]
 }
