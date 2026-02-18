@@ -5,15 +5,15 @@ const status = document.getElementById("status");
 const appLink = document.getElementById("appLink");
 
 const OFFICE_PROTOCOLS = {
-  doc: { prefix: "ms-word:ofe|u|", app: "Word" },
-  docx: { prefix: "ms-word:ofe|u|", app: "Word" },
-  docm: { prefix: "ms-word:ofe|u|", app: "Word" },
-  xls: { prefix: "ms-excel:ofe|u|", app: "Excel" },
-  xlsx: { prefix: "ms-excel:ofe|u|", app: "Excel" },
-  xlsm: { prefix: "ms-excel:ofe|u|", app: "Excel" },
-  ppt: { prefix: "ms-powerpoint:ofe|u|", app: "PowerPoint" },
-  pptx: { prefix: "ms-powerpoint:ofe|u|", app: "PowerPoint" },
-  pptm: { prefix: "ms-powerpoint:ofe|u|", app: "PowerPoint" }
+  doc: { prefix: "ms-word:ofv|u|", app: "Word" },
+  docx: { prefix: "ms-word:ofv|u|", app: "Word" },
+  docm: { prefix: "ms-word:ofv|u|", app: "Word" },
+  xls: { prefix: "ms-excel:ofv|u|", app: "Excel" },
+  xlsx: { prefix: "ms-excel:ofv|u|", app: "Excel" },
+  xlsm: { prefix: "ms-excel:ofv|u|", app: "Excel" },
+  ppt: { prefix: "ms-powerpoint:ofv|u|", app: "PowerPoint" },
+  pptx: { prefix: "ms-powerpoint:ofv|u|", app: "PowerPoint" },
+  pptm: { prefix: "ms-powerpoint:ofv|u|", app: "PowerPoint" }
 };
 
 /**
